@@ -26,38 +26,40 @@ body {
   margin: auto;
   padding: 2vh;
   background: var(--white);
-  height: 70vh;
-  width: 45vh;
+  height: 60vh;
+  width: 40vh;
   overflow: hidden;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  text-align: center;
   box-shadow: 0 0 3rem 0 var(--mid-gray);
 }
 
 .image-qr img {
   align-items: center;
-  width: 40vh;
+  width: 36vh;
   border-radius: 10px;
 }
 
 .description {
-  padding: 0 2vh 2rem 2vh;
+  margin-top: 1rem;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 h1 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   padding-bottom: 1rem;
-  font-weight: bold;
   color: var(--dark-blue);
-  line-height: 2.8rem;
 }
 
 p {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .footer {
